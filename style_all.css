@@ -1,0 +1,241 @@
+:root {
+	/* Primary Colors */
+	--bright-red: hsl(12, 88%, 59%);
+	--dark-blue: hsl(228, 39%, 23%);
+
+	/* Neutral Colors */
+	--dark-grayish-blue: hsl(227, 12%, 61%);
+	--very-dark-blue: hsl(233, 12%, 13%);
+	--very-pale-red: hsl(13, 100%, 96%);
+	--very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+	font-family: "Be Vietnam Pro", sans-serif;
+}
+
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+	background-image: url('images/bg-tablet-pattern.svg');
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 66rem -10rem;
+}
+
+.hidden{visibility: hidden;}
+
+
+/* BUTTON */
+
+h1 {
+	font-weight: 700 !important;
+	margin-bottom: 2rem !important;
+}
+
+.button--orange {
+	background-color: var(--bright-red);
+	width: 10rem;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2rem;
+	color: white;
+	font-weight: 700;
+	font-size: 0.8rem;
+	cursor: pointer;
+	margin-bottom: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.button--orange:hover{
+  background-color: hsl(12, 88%, 69%);
+}
+
+/* NAVBAR */
+.nav-link{
+  font-weight: 600 !important;
+}
+
+.nav-link:hover{
+  color: var(--dark-grayish-blue) !important;
+}
+
+/* STATISTICS */
+.statistics {
+	display: flex;
+}
+
+.statistics--b--text--small {
+	color: var(--dark-grayish-blue)
+}
+
+/* ADVANTAGES */
+
+.advantages {
+	display: flex;
+}
+
+h2{
+  font-weight: 700 !important;
+  color: var(--dark-blue);
+}
+
+.avantages--a--text{
+  color: var(--dark-grayish-blue)
+}
+
+.advantage--number{
+  background-color: var(--bright-red);
+  color: white;
+  width: 4rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  font-weight: 700;
+}
+
+.advantage--title{
+  font-weight: 700 !important;
+  color: var(--dark-blue);
+}
+
+.advantage--bottom{
+  color: var(--dark-grayish-blue)
+}
+
+/* FEEDBACKS */
+.feedbacks{
+  background-image: url('images/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-position-x: -25rem;
+}
+
+h3 {
+  font-weight: 700 !important;
+  color: var(--dark-blue);
+  text-align: center;
+  margin-top: 3rem !important;
+}
+
+.avatar {
+	width: 4rem !important;
+	height: 4rem !important;
+	border-radius: 50% !important;
+	margin-top: 2rem;
+}
+
+.carouselName{
+	font-weight: 700;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+
+.feedbacks .button--orange {
+  margin-top: 4rem;
+}
+
+
+/* SIMPLIFY */
+.simplify{
+  display: flex;
+  background-color: var(--bright-red);
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 0rem;
+}
+
+.simplify--a{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  width: 13rem;
+  margin-bottom: 2rem;
+}
+
+.simplify--b{
+  display: flex;
+}
+
+.simplify .button--orange{
+  background-color: white;
+  color:  var(--bright-red);
+  margin-bottom: 0rem;
+}
+
+.simplify .button--orange:hover{
+  color:  hsl(12, 48%, 59%);
+}
+
+.error{
+  color: red;
+  position: relative;
+  display: inline;
+  left: 15rem;
+  top: 3rem;
+  width: 15rem;
+}
+
+/* FOOTER */
+footer{background-color: var(--very-dark-blue);}
+
+.footer--a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input{
+  height: 3.0rem;
+  padding: 0rem 2rem;
+  border-radius: 2rem;
+}
+
+
+.footer--a .button--orange {
+  width: 3.5rem;
+  margin-bottom: 0rem;
+}
+
+.footer--b{
+  column-count: 2; /* Split the list into two columns */
+  column-gap: 4rem;;
+  list-style: none;
+  row-gap: 1rem;
+}
+
+
+.footer--b li{
+  color: var(--very-light-gray);
+  font-weight: 400;
+  height: 2rem;
+}
+
+.footer--b li:hover{
+  cursor: pointer;
+  color: var(--bright-red);
+}
+
+.iconSocial:hover{
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(60%) sepia(40%) saturate(1200%) hue-rotate(327deg) brightness(106%) contrast(100%);
+}
+
+.footer--logo{
+  color: white;
+}
+
+.footer--d{
+  color: var(--dark-grayish-blue);
+}

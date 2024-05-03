@@ -1,0 +1,151 @@
+@media screen and (min-width: 850px){
+
+/* NAVBAR */
+  .container-fluid{
+    align-items: space-between !important;
+    margin: 0rem 5rem !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
+
+  ul{
+    margin-left: auto;
+  }
+
+  .navbar .button--orange{
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+
+/* STATISTICS */
+.statistics{
+  flex-direction: row;
+}
+
+.statistics--b{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 5rem;
+ }
+
+.statistics--b--text{
+  text-align: left;
+ }
+
+ .statistics .button--orange{
+  align-self: flex-start;
+  margin-top: 2rem;
+ }
+
+ /* ADVANTAGES */
+.carousel{
+  display: none !important;
+}
+
+
+ .advantages{
+  flex-direction: row;
+  margin: 2rem 5rem;
+}
+
+.advantages--b--advantage{
+  display: grid;
+  grid-template-columns: 5rem auto;
+  grid-template-rows: auto auto;
+  margin-top: 2rem;
+}
+
+
+.advantage--number{
+  grid-area: 1/1/2/2;
+}
+
+.advantage--title{
+  grid-area: 1/2/2/3;
+  display: flex;
+  align-items: center;
+}
+
+.advantage--bottom{
+  grid-area: 2/1/3/3;
+  padding-left: 5rem;
+}
+
+/* FEEDBACKS */
+.feedbacks--desktop{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.feedback--desktop{
+  padding: 1rem;
+  width: 26%;
+  background: linear-gradient(to bottom, white 0%, var(--very-light-gray) 80%);
+}
+
+
+/* SIMPLIFY */
+.simplify{
+  flex-direction: row;
+  padding: 3rem 10rem;
+}
+
+.simplify--b{
+  justify-content: center;
+  align-items: center;
+}
+
+.simplify--a{
+ width: 24rem;
+ text-align: left;
+ font-size: 2rem;
+ font-weight: 700;
+ }
+
+/* FOOTER */
+footer{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: space-between;
+  padding: 0rem 4rem;
+  height: 13rem;
+}
+
+.footer--a{
+  grid-area: 1/3/2/4;
+  padding-top: 3.5rem;
+}
+
+input{
+  margin-right: 1rem !important;
+}
+
+.footer--b{
+  grid-area: 1/1/3/3;
+  padding-top: 3.2rem;
+  margin-left: 10rem;
+}
+
+.footer--c{
+  grid-area: 1/1/3/2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer--d{
+  grid-area: 2/3/3/4;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+
+
+}

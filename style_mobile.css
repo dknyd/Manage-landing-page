@@ -1,0 +1,161 @@
+@media screen and (max-width: 849px) {
+
+	/* NAVBAR */
+	.container-fluid {
+		margin: 0rem !important;
+	}
+
+  .navbar-nav{
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .container-fluid .button--orange{
+    visibility: hidden;
+  }
+
+	/* STATISTICS */
+
+	.statistics {
+		flex-direction: column-reverse;
+	}
+
+	.statistics--b--text {
+		text-align: center;
+	}
+
+	.statistics .button--orange {
+		margin: 0rem auto;
+		margin-top: 2rem;
+	}
+
+
+	/* ADVANTAGES */
+	.advantages {
+		flex-direction: column;
+    margin: 3rem 2rem;
+    text-align: center;
+	}
+
+  .avantages--a{
+    margin-bottom: 3rem;
+  }
+  .advantages--b--advantage{
+    display: grid;
+    grid-template-columns: 5rem auto;
+    grid-template-rows: auto auto;
+    margin-top: 2rem;
+  }
+  
+  
+  .advantage--number{
+    grid-area: 1/1/2/2;
+  }
+  
+  .advantage--title{
+    grid-area: 1/2/2/3;
+    display: flex;
+    align-items: center;
+  }
+  
+  .advantage--bottom{
+    grid-area: 2/1/3/3;
+    text-align: left;
+  }
+
+
+	/* FEEDBACKS / CAROUSEL  */
+
+  .feedbacks--desktop{
+    display: none !important;
+  }
+
+
+
+  .feedbacks{
+    margin: 0rem 4rem;
+  }
+
+	.carousel-item {
+    padding: 1rem;
+		height: 21rem;
+    background: linear-gradient(to bottom, transparent 0%, var(--very-light-gray) 90%);
+  
+	}
+
+	.carousel-indicators {
+		position: relative !important;
+
+	}
+
+	#indicator {
+		margin-top: 4rem;
+		width: 0.5rem !important;
+		height: 0.5rem !important;
+		border-radius: 50% !important;
+		border: 3px solid var(--bright-red);
+	}
+
+	.carousel-indicators button.active {
+		background-color: var(--bright-red) !important;
+	}
+
+	.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+	}
+
+	.carouselName {
+		width: 100%;
+		text-align: center;
+	}
+
+	.carouselText {
+		text-align: center;
+	}
+/* SIMPLIFY */
+.simplify{
+  flex-direction: column;
+}
+
+
+/* FOOTER */
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer--a{
+  padding: 3rem 0rem;
+}
+
+.footer--b{
+  padding: 3rem 0rem;
+}
+
+.footer--c{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.footer--logo{
+  width: 10rem;
+
+}
+
+.container--socialmedia{
+  display: flex;
+  width: 15rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+
+}
